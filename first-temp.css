@@ -1,0 +1,29 @@
+@media screen and (max-width: 860px) {
+    .services {
+        display: none;
+    }
+
+    .menu-icon {
+        display: block;
+    }
+
+    .services.show-menu {
+        display: block;
+        position: absolute;
+        top: 70px;
+        left: 0;
+        width: 100%;
+        background: #1a4fd6;
+        padding: 20px;
+        z-index: 10;
+    }
+
+    .services.show-menu ul {
+        flex-direction: column;
+        gap: 15px;
+    }
+
+    .hero-text .para {
+        text-align: center;
+    }
+}
